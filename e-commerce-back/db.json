@@ -1,0 +1,672 @@
+{
+  "checkOutBillsData": [],
+  "orders": [],
+  "wishlist": [],
+  "users": [
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$C/fS05hC7eWy/aI/3mXZKOPz7E7hlaap1B5iI/67XIgHLbW04dVL2",
+      "name": "test user 1",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "sofa",
+      "prefix": "sofa",
+      "img": "./asset/pexels-din-127253222-13833561.jpg"
+    },
+    {
+      "id": 2,
+      "title": "bed",
+      "prefix": "bed",
+      "img": "./asset/pexels-dada-_design-240566386-12289354.jpg"
+    },
+    {
+      "id": 3,
+      "title": "table",
+      "prefix": "table",
+      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/37d243d334c63__hp-w12-22032022-h_m-kids1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "lights",
+      "prefix": "lights",
+      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/28948d47ae6e8__h_m-w39-28092022-4066c-1x1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "chair",
+      "prefix": "chair",
+      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/1dda9ae79a671__h_m-w40-06102022-7416b-1x1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "office",
+      "prefix": "office",
+      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/1dda9ae79a671__h_m-w40-06102022-7416b-1x1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "kids",
+      "prefix": "kids",
+      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/1dda9ae79a671__h_m-w40-06102022-7416b-1x1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Luxurious King Size Bed",
+      "description": "Indulge in comfort and style with our luxurious king size bed. Crafted with premium materials for a restful sleep experience.",
+      "price": 2900,
+      "newPrice": 2490,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/9209422/pexels-photo-9209422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 3
+    },
+    {
+      "id": 2,
+      "title": "Wooden side Table",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 399,
+      "newPrice": 280,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/2082092/pexels-photo-2082092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 3,
+      "title": "Modern Glass Coffee Table",
+      "description": "Elevate your living space with our modern glass coffee table. Sleek design combined with functionality to enhance your home decor.",
+      "price": 949,
+      "newPrice": 725,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/20268817/pexels-photo-20268817/free-photo-of-vase-with-white-leafy-twigs-on-a-modern-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 4,
+      "title": "Elegant Pendant Lights",
+      "description": "Illuminate your space with elegance using our pendant lights. Stylish design and warm lighting for any room in your home.",
+      "price": 1300,
+      "newPrice": 900,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/11021597/pexels-photo-11021597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 5,
+      "title": "Comfortable Armchair",
+      "description": "Relax in style with our comfortable armchair. Plush cushions and sturdy construction make it perfect for lounging or reading.",
+      "price": 980,
+      "newPrice": 490,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 6,
+      "title": "stylish couch ",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 1999,
+      "newPrice": 1555,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/4846097/pexels-photo-4846097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 7,
+      "title": " Wooden Dining Table",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 2399,
+      "newPrice": 2100,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 8,
+      "title": "pendant lamps on a wooden beam",
+      "description": "Add a touch of modern flair to your home with our pendant ceiling light. Sleek design and adjustable height for customizable illumination.",
+      "price": 149,
+      "newPrice": 120,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/10613524/pexels-photo-10613524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 9,
+      "title": "Ergonomic Office Chair",
+      "description": "Stay comfortable and productive with our ergonomic office chair. Adjustable features and lumbar support for long hours of work.",
+      "price": 2600,
+      "newPrice": 2200,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/6636251/pexels-photo-6636251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 10,
+      "title": "Classic Leather Recliner",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 3799,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/8135269/pexels-photo-8135269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 11,
+      "title": "Industrial Style Coffee Table",
+      "description": "Add an industrial touch to your living space with our coffee table. Featuring a metal frame and reclaimed wood top for a rugged yet stylish look.",
+      "price": 1440,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/18288707/pexels-photo-18288707/free-photo-of-design-table-in-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 12,
+      "title": "lighted wooden lamp",
+      "description": "Illuminate your room with our minimalist floor lamp. Clean lines and adjustable height make it perfect for modern interiors.",
+      "price": 99,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/14682688/pexels-photo-14682688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/14682688/pexels-photo-14682688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 13,
+      "title": "Scandinavian Design Armchair",
+      "description": "Experience Scandinavian comfort with our armchair. Sleek design and soft upholstery create a cozy seating area in any room.",
+      "price": 1150,
+      "newPrice": 1075,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/6707630/pexels-photo-6707630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 14,
+      "title": "Classic Leather Recliner",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 799,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 15,
+      "title": "coffee table",
+      "description": "Illuminate your room with our coffee table. Clean lines and adjustable height make it perfect for modern interiors.",
+      "price": 1800,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/19784334/pexels-photo-19784334/free-photo-of-coffee-table-and-a-sofa-in-a-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 16,
+      "title": " White Abagora Lamp",
+      "description": "Illuminate your room with our White Abagora Lamp. Clean lines and adjustable height make it perfect for modern interiors.",
+      "price": 99,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/14646434/pexels-photo-14646434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 17,
+      "title": "white Bed linen",
+      "description": "Indulge in comfort and style with our luxurious king size bed. Crafted with premium materials for a restful sleep experience.",
+      "price": 1700,
+      "newPrice": 1540,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/3288100/pexels-photo-3288100.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 3
+    },
+    {
+      "id": 18,
+      "title": "wooden Bed",
+      "description": "Indulge in comfort and style with our wooden bed. Crafted with premium materials for a restful sleep experience.",
+      "price": 2300,
+      "newPrice": 2000,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/17570404/pexels-photo-17570404/free-photo-of-fan-over-bed-in-bedroom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 3
+    },
+    {
+      "id": 19,
+      "title": "Modern Glass Coffee Table",
+      "description": "Elevate your living space with our modern glass coffee table. Sleek design combined with functionality to enhance your home decor.",
+      "price": 1180,
+      "newPrice": 590,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/19991831/pexels-photo-19991831/free-photo-of-flowers-vases-and-books-standing-on-a-coffee-table-in-a-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 20,
+      "title": "stainless steel base white shade table lamp",
+      "description": "Illuminate your space with elegance using our pendant lights. Stylish design and warm lighting for any room in your home.",
+      "price": 129,
+      "newPrice": 80,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 5
+    },
+    {
+      "id": 21,
+      "title": "Chair in a Living Room",
+      "description": "Relax in style with our comfortable armchair. Plush cushions and sturdy construction make it perfect for lounging or reading.",
+      "price": 790,
+      "newPrice": 690,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/18721873/pexels-photo-18721873/free-photo-of-chair-in-a-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 22,
+      "title": "Cozy Sectional Sofa",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 2900,
+      "newPrice": 1450,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/12908605/pexels-photo-12908605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 23,
+      "title": "Wooden Dining Table",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 1200,
+      "newPrice": 900,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/12836630/pexels-photo-12836630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 24,
+      "title": "cute two beds for kids",
+      "description": "Add a touch of modern flair to your home with our pendant ceiling light. Sleek design and adjustable height for customizable illumination.",
+      "price": 3490,
+      "newPrice": 2700,
+      "cat_prefix": "kids",
+      "img": "https://images.pexels.com/photos/18470959/pexels-photo-18470959/free-photo-of-two-beds-in-a-hotel-bedroom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 25,
+      "title": "white wicker armchair",
+      "description": "Stay comfortable and productive with our ergonomic office chair. Adjustable features and lumbar support for long hours of work.",
+      "price": 900,
+      "newPrice": 300,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/3705539/pexels-photo-3705539.jpeg",
+      "max": 4
+    },
+    {
+      "id": 26,
+      "title": "two single beds",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 1699,
+      "cat_prefix": "kids",
+      "img": "https://images.pexels.com/photos/2029722/pexels-photo-2029722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 27,
+      "title": "yellow couch",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 1990,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/9914678/pexels-photo-9914678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 28,
+      "title": "office desk",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 1100,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/3946658/pexels-photo-3946658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 29,
+      "title": "children beds",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 4000,
+      "newPrice": 2000,
+      "cat_prefix": "kids",
+      "img": "https://images.pexels.com/photos/6758769/pexels-photo-6758769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 30,
+      "title": " white Wooden Dining Table",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 2400,
+      "newPrice": 1700,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/6527032/pexels-photo-6527032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 31,
+      "title": "white chairs",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 999,
+      "newPrice": 600,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/10120258/pexels-photo-10120258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 32,
+      "title": "Table with chairs",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 3200,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/9937727/pexels-photo-9937727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 33,
+      "title": "one child bedroom",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 3399,
+      "newPrice": 2800,
+      "cat_prefix": "kids",
+      "img": "https://images.pexels.com/photos/6817188/pexels-photo-6817188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 34,
+      "title": "black modern tables",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "newPrice": 730,
+      "cat_prefix": "table",
+      "img": "https://images.pexels.com/photos/13675289/pexels-photo-13675289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 35,
+      "title": "Table with chairs",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 500,
+      "newPrice": 250,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/15764817/pexels-photo-15764817/free-photo-of-white-armchair-in-waiting-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 36,
+      "title": "modern white lamp",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 399,
+      "newPrice": 200,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/14863498/pexels-photo-14863498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 37,
+      "title": "simple beds",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 2200,
+      "newPrice": 1800,
+      "cat_prefix": "kids",
+      "img": "https://images.pexels.com/photos/20200292/pexels-photo-20200292/free-photo-of-lamp-over-beds-in-hotel-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 38,
+      "title": "three Modern lights",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 1200,
+      "newPrice": 900,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/11850174/pexels-photo-11850174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 39,
+      "title": "modern bed",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 2699,
+      "newPrice": 2000,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/13009882/pexels-photo-13009882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 40,
+      "title": "metal office chair",
+      "description": "modern in style with our classic metal chair. Plush cushioning and premium plastic upholstery for durability.",
+      "price": 1100,
+      "newPrice": 900,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/6044915/pexels-photo-6044915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 41,
+      "title": "stand white Lampshades",
+      "description": "Gather your family around our rustic wooden dining table. Crafted from solid wood, it brings warmth and charm to any dining space.",
+      "price": 990,
+      "newPrice": 700,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/11845243/pexels-photo-11845243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 42,
+      "title": "blue couch",
+      "description": "Relax in style with our classic leather recliner. Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 2300,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/7598117/pexels-photo-7598117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 43,
+      "title": "black office chair",
+      "description": "Relax in style with our classic leather . Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 800,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/5483154/pexels-photo-5483154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 44,
+      "title": "white and black office chair",
+      "description": "Relax in style with our classic leather . Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 1300,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/8453810/pexels-photo-8453810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 45,
+      "title": "stainless office chair",
+      "description": "Relax in style with our classic leather . Plush cushioning and premium leather upholstery for maximum comfort and durability.",
+      "price": 1530,
+      "cat_prefix": "office",
+      "img": "https://images.pexels.com/photos/9300770/pexels-photo-9300770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 46,
+      "title": "blue Sofa",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 1110,
+      "newPrice": 555,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/4857772/pexels-photo-4857772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 47,
+      "title": "Chair in a Living Room",
+      "description": "Relax in style with our comfortable armchair. Plush cushions and sturdy construction make it perfect for lounging or reading.",
+      "price": 860,
+      "newPrice": 430,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/6968186/pexels-photo-6968186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 4
+    },
+    {
+      "id": 48,
+      "title": "A Cushion on a Blue Armchair",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 900,
+      "newPrice": 630,
+      "cat_prefix": "chair",
+      "img": "https://images.pexels.com/photos/10963988/pexels-photo-10963988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 49,
+      "title": "Leather Couch",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 1600,
+      "newPrice": 800,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/8753032/pexels-photo-8753032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 50,
+      "title": "vintage lamp",
+      "description": "Interior of room with vintage lamp like candle",
+      "price": 800,
+      "newPrice": 400,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/6186511/pexels-photo-6186511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 51,
+      "title": "Black Sofas in living room",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 2740,
+      "newPrice": 2000,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/6301182/pexels-photo-6301182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 52,
+      "title": "White Wall, Table and Couch",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 888,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/18920421/pexels-photo-18920421/free-photo-of-white-wall-table-and-couch.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 53,
+      "title": "candle lamp",
+      "description": "Close-Up Shot of a Pendant Lamp",
+      "price": 800,
+      "newPrice": 600,
+      "cat_prefix": "lights",
+      "img": "https://images.pexels.com/photos/12642347/pexels-photo-12642347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 54,
+      "title": "Modern Sofa in Living Room",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 1930,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/15545368/pexels-photo-15545368/free-photo-of-modern-sofa-in-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 55,
+      "title": "modern couch for two persons",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 799,
+      "newPrice": 380,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/17264327/pexels-photo-17264327/free-photo-of-view-of-a-modern-living-room.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 56,
+      "title": "pink twin girls bedroom",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 5555,
+      "newPrice": 2500,
+      "cat_prefix": "kids",
+      "img": "https://i.pinimg.com/originals/94/21/a7/9421a712df4428935f50b57da37837a3.jpg",
+      "max": 2
+    },
+    {
+      "id": 57,
+      "title": "Comfy pink sofa",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 2970,
+      "newPrice": 2200,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/7018400/pexels-photo-7018400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 58,
+      "title": "black and grey Bed",
+      "description": "Indulge in comfort and style with our wooden bed. Crafted with premium materials for a restful sleep experience.",
+      "price": 3800,
+      "newPrice": 1900,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/6301172/pexels-photo-6301172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 3
+    },
+    {
+      "id": 59,
+      "title": "green velvet Sofa",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 3690,
+      "newPrice": 3000,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/10024330/pexels-photo-10024330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 60,
+      "title": "white children bed room",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 3800,
+      "newPrice": 1900,
+      "cat_prefix": "kids",
+      "img": "https://beatcolor.com/media/2020/09/Themed-kids-bedroom.jpg",
+      "max": 2
+    },
+    {
+      "id": 61,
+      "title": "Sofa with cushions in living room",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 880,
+      "newPrice": 440,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/5998023/pexels-photo-5998023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    },
+    {
+      "id": 62,
+      "title": "black and grey Bed",
+      "description": "Indulge in comfort and style with our wooden bed. Crafted with premium materials for a restful sleep experience.",
+      "price": 2700,
+      "newPrice": 2400,
+      "cat_prefix": "bed",
+      "img": "https://images.pexels.com/photos/12289354/pexels-photo-12289354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 3
+    },
+    {
+      "id": 63,
+      "title": "green velvet couch",
+      "description": "Create a cozy gathering spot in your living room with our sectional sofa. Generous seating and soft upholstery for ultimate relaxation.",
+      "price": 2800,
+      "newPrice": 2380,
+      "cat_prefix": "sofa",
+      "img": "https://images.pexels.com/photos/6580396/pexels-photo-6580396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "max": 2
+    }
+  ]
+}

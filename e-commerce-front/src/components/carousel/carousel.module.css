@@ -1,0 +1,30 @@
+/* src/carousel.module.css */
+
+/* Styles for the carousel container */
+.carouselContainer {
+    width: calc(70% - 404px);
+    height: 582px;
+    margin: 0 auto;
+    align-self: self-start;
+    border: 1px solid black;
+}
+
+/* Styles for the next arrow */
+.slicknextbefore::before {
+    color: #B88E2F;
+}
+
+/* Styles for the dots */
+.carouselContainer ul.slick-dots {
+    text-align: start;
+}
+
+/* Styles for dot buttons */
+.carouselContainer .slick-dots li button {
+    color: #B88E2F;
+}
+
+/* Styles for active dot */
+.carouselContainer .slick-dots li.slick-active button::before {
+    background: #B88E2F;
+}

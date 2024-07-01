@@ -1,0 +1,98 @@
+.offchead{
+    display: flex;
+    justify-content: space-between;
+    padding-inline:30px ;
+    gap: 50px;
+}
+
+.offchead :first-child {
+border-bottom: 2px solid #D9D9D9;
+flex-grow: 1;
+font-size: 24px;
+padding-bottom: 20px;
+}
+
+.offchead :last-child {
+
+}
+
+.offcbody{
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+
+.offcbody main{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ccbtns{
+    margin-bottom: 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    width: 100% !important;
+}
+
+.ccbtns button {
+    padding: 6px 40px;
+    border-radius: 20px;
+    margin: 0;
+    border-color: #B88E2F;
+    background-color: #fff;
+}
+
+
+.cartSMPic {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    grid-row: span 2;
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.cartSMProd {
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr );
+    gap: 10px;
+    padding-bottom: 10px;
+border-bottom:1px solid #D9D9D9;
+}
+
+.cartSMProd p {
+    grid-row: span 1;
+grid-column-start: 3;
+grid-column-end: 7;
+margin-bottom: 0;
+font-weight: 500;
+align-self: flex-end;
+/* justify-self: center; */
+}
+
+.cartSMProd span:first-of-type {
+    grid-row: span 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-weight: lighter;
+    justify-self: end;
+}
+
+.cartSMProd span:last-of-type {
+    grid-row: span 2;
+        grid-column-start: 4;
+            grid-column-end: 6;
+    color: #B88E2F;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+
+

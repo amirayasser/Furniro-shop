@@ -1,0 +1,31 @@
+/* flex */
+
+.imagegallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+align-items: center;
+}
+
+.imagegallery section > div {
+display: flex;
+width: 100%;
+/* flex-wrap: wrap; */
+    gap: 10px;
+    margin: 10px 0;
+    align-items:end;
+}
+
+.imagegallery section > div:last-child {
+align-items: start;
+}
+
+
+.imagegallery section:nth-of-type(2){
+align-self: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+

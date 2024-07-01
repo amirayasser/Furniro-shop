@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pics-box {
+    /* max-height: 500px; */
+    height: 500px;
+    /* Use max-height instead of height */
+    width: 46%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+
+.mainPic {
+    width: 84%;
+    max-height: 100%;
+    background-color: #f9f1e7;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.mainPic:hover {
+    background-size: contain;
+}
+
+.smallPics {
+    min-width: 80px;
+    width: 12.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.smallpic {
+    width: 100%;
+    max-width: 80px;
+    max-height: 80px;
+    height: 20%;
+    /* border: 1px solid black; */
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.smallpic:nth-of-type(2) , .active2{
+        filter: grayscale();
+}
+.smallpic:nth-of-type(3) , .active3{
+    filter: blur(3px)
+}
+.smallpic:last-of-type , .active4{
+    filter: saturate(5);
+}
+

@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #F9F1E7;
+}
+
+.bcitem a{
+    color:#B88E2F;
+    /* text-shadow: 01px 01px 0.5px #000; */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bcitem{
+    font-weight: 600;
+}
+
+.breadcrumb ol {
+    margin-bottom: 0 !important;
+}
+

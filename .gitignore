@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+
+# Env files
+.env
+
+# Miscellaneous
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

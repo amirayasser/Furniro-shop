@@ -1,0 +1,49 @@
+.filterContainer{
+    background-color: #F9F1E7;
+    height: 100px;
+    margin: 0;
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% ;
+}
+
+.filterContainer p{
+    margin-bottom: 0;
+}
+
+
+.filterContainer > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.showNo {
+    background-color: #fff;
+    width: 55px !important;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    width: 200px !important;
+}
+
+.filterList {
+background-color: transparent !important;
+border-color:#000;
+color: #000;
+display: flex;
+gap: 20px;
+justify-content: space-around;
+align-items: center;
+}
+
+.filterList:hover{
+    color: #000;
+}
