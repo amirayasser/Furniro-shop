@@ -22,7 +22,7 @@ import OrdersBills from '@pages/OrdersBills';
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/Furniro-shop/",
         element: <MainLayout />,
         errorElement: <Error />,
 
